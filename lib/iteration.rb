@@ -58,7 +58,7 @@ def total_even_pairs(src)
   # this!
   even_sum = 0
   row_index = 0
-  
+
   while row_index < src.count do
     inner = []
     element_index = 0
@@ -71,10 +71,10 @@ def total_even_pairs(src)
       if inner.size == 2
         even_sum = inner[0] + inner[1] + even_sum
     end
-  
+
     row_index += 1
-  
+
   end
   even_sum
-  
+
 end
